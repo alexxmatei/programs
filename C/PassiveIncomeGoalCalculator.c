@@ -19,6 +19,8 @@ int main(){
 	(void)scanf("%f", &savingRateMonthly);
 	(void)printf("Enter your desired monthly passive income:\n");
 	(void)scanf("%d", &desiredMonthlyPassiveIncome);
+	(void)printf("Enter your current savings:\n");
+	(void)scanf("%d", &savedIncome);
 	savingRateMonthly /= 100;
 	savedMonthlyIncome = monthlyIncome * savingRateMonthly;
 	goalSum = desiredMonthlyPassiveIncome * MONTHS_IN_YEAR * SUM_MULTIPLIER;
