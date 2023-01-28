@@ -1,2 +1,2 @@
 # Programs
-Smaller programs and projects that aren't included in another repository.
+Smaller programs and projects (written in multiple languages) that aren't included in another repository.
