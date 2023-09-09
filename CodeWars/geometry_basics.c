@@ -1,3 +1,4 @@
+
 #include <math.h>
 
 typedef struct Point {
