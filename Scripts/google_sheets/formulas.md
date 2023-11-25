@@ -1,6 +1,7 @@
-# Excel Formulas
+# Google Sheets Formulas
 
 ## Find duplicates between different columns (in this case: B, D, F, H, J)
+This was used in a conditional formatting custom formula
 ```
 =OR(COUNTIF(B:B, B1) + COUNTIF(D:D, B1) + COUNTIF(F:F, B1)+ COUNTIF(H:H, B1) + COUNTIF(J:J, B1)>1,
     COUNTIF(B:B, D1) + COUNTIF(D:D, D1) + COUNTIF(F:F, D1)+ COUNTIF(H:H, D1) + COUNTIF(J:J, D1)>1,
