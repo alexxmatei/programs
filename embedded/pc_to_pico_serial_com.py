@@ -1,3 +1,13 @@
+import select
+import sys
+import time
+import machine
+
+# Create an instance of a polling object 
+poll_obj = select.poll()
+# Register sys.stdin (standard input) for monitoring read events with priority 1
+poll_obj.register(sys.stdin,1)
+# Pin object for controlling onboard LED
 led=machine.Pin("LED",machine.Pin.OUT)
 
 while True:
